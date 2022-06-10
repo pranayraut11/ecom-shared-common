@@ -19,5 +19,10 @@
         </dependency>
 
     </dependencies>
-
+    <repositories>
+        <repository>
+            <id>ecom-group</id>
+            <url>http://localhost:8081/repository/ecom-group/</url>
+        </repository>
+    </repositories>
 </project>
