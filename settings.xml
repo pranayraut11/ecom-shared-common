@@ -30,7 +30,7 @@
         <mirror>
             <id>ecom-maven-central</id>
             <name>ecom-maven-central</name>
-            <url>http://localhost:8081/repository/ecom-group/</url>
+            <url>http://172.20.0.3:8081/repository/ecom-group/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>

@@ -12,9 +12,6 @@
     <groupId>org.ecom.shared</groupId>
     <artifactId>common</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <properties>
-        <java.version>11</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,7 +25,6 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${project.parent.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -36,7 +32,7 @@
     <repositories>
         <repository>
             <id>ecom-group</id>
-            <url>http://localhost:8081/repository/ecom-group/</url>
+            <url>http://172.20.0.3:8081/repository/ecom-group/</url>
         </repository>
     </repositories>
 </project>
